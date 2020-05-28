@@ -9,3 +9,8 @@ diet.index = pd.to_datetime(diet.index)
 # plot
 diet.plot(grid=True)
 plt.show()
+
+# slice by particular year
+diet2015 = diet['2015']
+diet2015.plot(grid=True)
+plt.show()
